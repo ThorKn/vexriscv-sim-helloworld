@@ -1,3 +1,10 @@
+# About the source of this VexRiscv-Simulation
+This is a stipped down version of the pqriscv resporitory:
+https://github.com/mupq/pqriscv
+The original README of this repository starts below and might not fit for all functionality anymore.
+You might want to read the README in the root folder of this repo instead.
+Modifications: Thorsten Knoll, Oct 2020
+
 # PQVexRiscV
 [VexRiscv](https://github.com/SpinalHDL/VexRiscv) based Target platforms
 for the [pqriscv](https://github.com/mupq/pqriscv) project
