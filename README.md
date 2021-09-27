@@ -10,7 +10,7 @@ Here is what you can do with this repo:
 
 All the neccessary tools are contained in this Virtual Machine (VM):
 
-[Virtual Machine](https://random-oracles.org/risc-v/)
+[Virtual Machine 2.0 (https://random-oracles.org/risc-v/)](https://random-oracles.org/risc-v/)
 
 Download the VM and follow the documentation for starting it up.
 
