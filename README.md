@@ -6,7 +6,7 @@ Here is what you can do with this repo:
 - Compile a C "hello world" and load it into the Vexriscv.
 - Step through the "hello world" with GDB and see the UART output.
 
-# Prerequisites:
+## Prerequisites:
 
 All the neccessary tools are contained in this Virtual Machine (VM):
 
@@ -16,7 +16,7 @@ Download the VM and follow the documentation for starting it up.
 
 **This project is tested with the QuantumRisc VM 2.0.**
 
-# How to do this?
+## How to do this?
 
 Start the Virtual Machine. From here on you work inside the QuantumRisc Virtual Machine (VM). The VM is based on Ubuntu 20.04 LTS and has a Gnome desktop.
 
