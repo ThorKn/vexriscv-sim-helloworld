@@ -19,18 +19,20 @@ Download the VM and follow the documentation for starting it up.
 
 Build the Vexriscv and start the simulation:
 
-From the root of the repo, enter
+From the root of the repo, enter 
 ```
+cd vexriscv
 sbt "runMain mupq.PQVexRiscvSim"
 ```
 
-Then connect OpenOCD to the Vexriscv (from a new console window):
+Then connect OpenOCD to the Vexriscv (from a new console window, insider the folder ```vexriscv```):
 ```
+cd vexriscv
 openocd-vexriscv -f vexriscvsim.cfg
 ```
 
 Now the Vexriscv is running and ready to take and run an application.
-So you should change to the folder c_project and build the application:
+So you should open a new (the third one) console and change to the folder ```c_project``` and build the application:
 ```
 cd c_project
 make
