@@ -23,13 +23,4 @@ project/plugins/project/
 simWorkspace/
 tmp/
 
-# ---> Project
-rtl/.Xil
-rtl/*.log
-rtl/*.dcp
-rtl/*.time
-rtl/*.json
-rtl/*.bit
-rtl/*.v
-cpu0.yaml
-*.bin
+
