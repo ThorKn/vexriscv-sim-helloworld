@@ -13,26 +13,29 @@ All the neccessary tools are contained in this Virtual Machine (VM):
 [Virtual Machine](https://random-oracles.org/risc-v/)
 
 Download the VM and follow the documentation for starting it up.
-
+**This project is tested with the QuantumRisc VM 2.0.**
 
 # How to do this?
 
-Build the Vexriscv and start the simulation:
+### 1: Build the Vexriscv and start the simulation:
 
-From the root of the repo, enter 
+Open up a console (Terminal). From the root folder of the repo, change to the folder ```vexriscv``` and start the Vexriscv Simulation. 
 ```
 cd vexriscv
 sbt "runMain mupq.PQVexRiscvSim"
 ```
 
-Then connect OpenOCD to the Vexriscv (from a new console window, insider the folder ```vexriscv```):
+### 2: Connect OpenOCD (The Vexriscv version) to the Simulation:
+
+Open up a new console (the second one). From the root folder of the repo, change to the folder ```vexriscv``` and connect OpenOCD to the Vexriscv Simulation. The configuration is stored in the file ```vexriscvsim.cfg```.
 ```
 cd vexriscv
 openocd-vexriscv -f vexriscvsim.cfg
 ```
 
-Now the Vexriscv is running and ready to take and run an application.
-So you should open a new (the third one) console and change to the folder ```c_project``` and build the application:
+### 3: Build, upload and run the C application (a simple helloworld):
+
+Open up a new console (the third one). From the root folder of the repo, change to the folder ```c_project```. Build the application via the Makefile. 
 ```
 cd c_project
 make
@@ -52,9 +55,4 @@ Then you can continue the program for one run of the loop with GDB:
 ```
 c
 ```
-
-
-
-
-
 
