@@ -1,4 +1,4 @@
-# vexriscv-sim-helloworld
+# Simulate a Vexriscv and run a hello world in it.
 
 Here is what you can do with this repo:
 - Run a simulation of a Vexriscv.
