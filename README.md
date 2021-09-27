@@ -13,9 +13,12 @@ All the neccessary tools are contained in this Virtual Machine (VM):
 [Virtual Machine](https://random-oracles.org/risc-v/)
 
 Download the VM and follow the documentation for starting it up.
+
 **This project is tested with the QuantumRisc VM 2.0.**
 
 # How to do this?
+
+Start the Virtual Machine. From here on you work inside the QuantumRisc Virtual Machine (VM). The VM is based on Ubuntu 20.04 LTS and has a Gnome desktop.
 
 ### 1: Build the Vexriscv and start the simulation:
 
@@ -27,7 +30,7 @@ sbt "runMain mupq.PQVexRiscvSim"
 
 ### 2: Connect OpenOCD (The Vexriscv version) to the Simulation:
 
-Open up a new console (the second one). From the root folder of the repo, change to the folder ```vexriscv``` and connect OpenOCD to the Vexriscv Simulation. The configuration is stored in the file ```vexriscvsim.cfg```.
+Open up a new console (the second one). From the root folder of the repo, change to the folder ```vexriscv``` and connect OpenOCD to the Vexriscv Simulation. The OpenOCD configuration is stored in the file ```vexriscvsim.cfg```.
 ```
 cd vexriscv
 openocd-vexriscv -f vexriscvsim.cfg
