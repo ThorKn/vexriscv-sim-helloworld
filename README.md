@@ -20,6 +20,12 @@ Download the VM and follow the documentation for starting it up.
 
 Start the Virtual Machine. From here on you work inside the QuantumRisc Virtual Machine (VM). The VM is based on Ubuntu 20.04 LTS and has a Gnome desktop.
 
+### 0: Clone this repository:
+Open up a console and clone this respository.
+```
+git clone https://github.com/ThorKn/vexriscv-sim-helloworld.git
+```
+
 ### 1: Build the Vexriscv and start the simulation:
 
 Open up a console (Terminal). From the root folder of the repo, change to the folder ```vexriscv``` and start the Vexriscv Simulation. 
